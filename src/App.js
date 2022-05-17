@@ -1,12 +1,13 @@
 
 import './App.css';
+import Contador from './components/Contador';
 import Formulario from './components/Formulario'
 import PruebaPropiedades from './components/PruebaPropiedades';
 
 function App() {
   return (
     <>
-        <PruebaPropiedades cantidad= {9}/>
+       <Contador inicial={2}/>
     </>
   );
 }

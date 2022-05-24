@@ -9,8 +9,8 @@ const Contador = ({inicial}) => {
         <>
         <hr/>
             <h1>Contador</h1>
-            <h1>El valor de la variable contador es: {contador}</h1>
-            <h1>
+            <h1 id='id_valor_variable'>El valor de la variable contador es: {contador}</h1>
+            <h1 id='id_condicion'>
                 {
                     contador > 2 ? 'Es mayor a dos': 'Es menor o igual a dos'
                 }
